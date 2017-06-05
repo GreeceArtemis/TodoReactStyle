@@ -39,10 +39,10 @@ const Todo = () => {
   const parent = $('<div class="white-card"></div>');
   const input = $('<input id="input-item" type="text" placeholder="Ingresa la tarea">');
   const todoTitle = $('<p>To Do Items:</p>');
-  const list = $('<div class="list"></div>');
+  const list = $('<div class="list unchecked"></div>');
   const hr = $('<hr>');
-  const completedTitle = $('<p>Completed Items</p>');
-  const completedList = $('<div class="completed"></div>');
+  const completedTitle = $('<p>Completed Items:</p>');
+  const completedList = $('<div class="completed checked"></div>');
 
   parent.append(input);
   parent.append(todoTitle);
