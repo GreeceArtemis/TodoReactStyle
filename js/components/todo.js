@@ -1,6 +1,6 @@
 const TodoItem = (data,update) => {
   const todo = $('<div class="todo"></div>');
-  const checkbox = $('<input type="checkbox">');
+  const checkbox = $('<input class="check-box" type="checkbox">');
   const span = $('<span>'+data.text+'</span>');
   const remove = $('<button>Remove</button>');
 
